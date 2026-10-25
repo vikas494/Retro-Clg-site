@@ -1,0 +1,30 @@
+{
+  "name": "clgbootcamp",
+  "version": "1.0.0",
+  "description": "Government Engineering Hassan - Campus Announcement & Notification Portal",
+  "main": "server/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server/index.js",
+    "server": "node server/index.js",
+    "client": "npm --prefix client run dev",
+    "build": "npm --prefix client run build",
+    "dev": "node server/index.js"
+  },
+  "keywords": [
+    "geh",
+    "college-announcements",
+    "retro-web",
+    "tailwind"
+  ],
+  "author": "Vikas Malali",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "better-sqlite3": "^13.0.3",
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.9",
+    "express": "^5.3.0",
+    "jsonwebtoken": "^9.0.3"
+  }
+}

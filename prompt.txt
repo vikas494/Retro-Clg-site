@@ -1,0 +1,32 @@
+act as a full stack developer.
+first read the below project description.
+choose fruntend frameworks and backend frameworks. choose tailwind css its a compulsory.
+design a data base.
+write database queries.
+write whole backend
+write frontend the front end interface should be like retro theme like the 90s websites but should be easy to use.
+and connect.
+
+
+description:
+    it is the site for college announcement. the clg name is Government Engineering Hassan.
+    there are five branches in it EC, AI&ML, CIVIL, Mech, css.
+    so the website should have 2 interfaces for student and administration.
+    if in hosting page student seleceted no login or authentication required. if administration option seleceted need to authenticated with user name and password.
+    administration should be able to post news or notifications.
+
+    the notification:
+        should have:
+            title
+            description
+            date published
+            date expiring, may have option to have permanent notification.
+            like counts which students should do do increase priority.
+            priority set by publisher.
+            branch or may be general visible to all
+
+    the students should be able to see the notification by searching with title,
+    they should be able to filter by priority, branch.
+    they should sort according to branch.
+    
+            
